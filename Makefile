@@ -8,6 +8,9 @@
 PORTNAME=	IO_SWF
 PORTVERSION=	2.0.13
 CATEGORIES=	graphics www pear
+MASTER_SITES=	http://openpear.org/get/ \
+		LOCAL
+MASTER_SITE_SUBDIR=	tota/${PKGNAMEPREFIX}${PORTNAME}
 
 MAINTAINER=	yoya@awm.jp
 COMMENT=	PEAR library for reading/writing SWF binary
