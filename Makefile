@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	IO_SWF
-PORTVERSION=	2.0.17
+PORTVERSION=	2.0.21
 CATEGORIES=	graphics www pear
 MASTER_SITES=	http://openpear.org/get/ \
 		LOCAL
