@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	IO_SWF
-PORTVERSION=	2.1.5
+PORTVERSION=	2.1.6
 CATEGORIES=	graphics www pear
 MASTER_SITES=	http://openpear.org/get/ \
 		LOCAL
@@ -62,8 +62,8 @@ EXAMPLES=	get_bitmapsize.php jpeg_dump.php \
 		swfgetmovieclip.php swflistmovieclip.php \
 		swfrebuild.php swfreplaceactionstrings.php \
 		swfreplacebitmapdata.php swfreplaceeditstring.php \
-		swfreplacemovieclip.php swfsetactionvariables.php \
-		swfsetbgcolor.php
+		swfreplacemovieclip.php swfselectbycids.php \
+		swfsetactionvariables.php swfsetbgcolor.php
 _EXAMPLESDIR=   sample
 
 x-generate-files: extract
